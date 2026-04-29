@@ -1,0 +1,302 @@
+body {
+    padding: 10px;
+    margin: 0px;
+}
+
+.kaushan-script-regular {
+  font-family: "Kaushan Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.review-box {
+    border-style: solid;
+    padding: 20px;
+    border-radius: 50px;
+    border-width: 1px;
+    width: 200px;
+    height: 200px;
+    margin-left: 5%;
+}
+
+.flexbox-center {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+h3 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: -20px;
+}
+
+#full_name {
+    margin-top: 15px;
+    margin-right: auto;
+    margin-left: 5px;
+}
+
+#heading-ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    gap: 10px;
+    margin-left: auto;
+}
+
+#table {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.table_header {
+    padding: 8px;
+    font-family: "Kaushan Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#column1 {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    border-style: solid;
+    border-width: 2px;
+    border-right-style: none;
+}
+
+.column1_element {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    padding: 8px;
+}
+
+#column1_lastelement {
+    border-bottom-style: none;
+    padding: 8px;
+}
+
+#column2 {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    border-style: solid;
+    border-width: 2px;
+    border-right-style: none;
+}
+
+#column2_element1 {
+    flex-grow: 1;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    padding: 8px;
+}
+
+#column2_element2 {
+    flex-grow: 2;
+    padding: 8px;
+}
+
+.column2_subelement {
+    margin: 2px;
+    margin-bottom: 10px;
+}
+
+#column2_subelement_header {
+    font-family: "Kaushan Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    margin: 2px;
+    margin-bottom: 20px;
+}
+
+#column3 {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.column3_subelement {
+    padding: 8px;
+}
+
+#disclaimer {
+    text-align: center;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: "Kaushan Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#reviews_teachers {
+    font-family: "Kaushan Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.hyperlink_blue {
+    color: blue;
+    text-decoration: none;
+}
+
+.project_title {
+    font-size: large;
+    font-weight: bold;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+#project_list {
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}
+
+#contact_form {
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+
+input,textarea {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 30px;
+    width: 400px;
+    border-radius: 10px;
+    border-width: 1px;
+    border-style: solid;
+}
+
+button {
+    height: 40px;
+    width: 200px;
+    font-size: large;
+    color: white;
+    background-color: rgb(0, 123, 255);
+    border-radius: 10px;
+    margin-top: 40px;
+    border-style: none;
+}
+
+button:hover {
+    background-color: rgba(41, 108, 252, 0.957);
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+
+    h3 {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        margin-top: -20px;
+    }
+
+    #full_name {
+        margin-top: 15px;
+        margin-right: auto;
+        margin-left: auto;
+
+    }
+
+    .flexbox-center {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        position: relative;
+    }
+
+    #table {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .table_header {
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+        text-align: center;
+    }
+
+    #column1 {
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+        border-style: solid;
+        border-width: 2px;
+        border-right-style: solid;
+        border-bottom-style: none;
+    }
+
+    .column1_element {
+        background-color: gainsboro;
+        text-align: center;
+    }
+
+    #column1_lastelement {
+        background-color: gainsboro;
+        text-align: center;
+    }
+
+    #column2 {
+        display: flex;
+        flex-grow: 1;
+        flex-direction: column;
+        border-style: solid;
+        border-width: 2px;
+        border-right-style: solid;
+        border-bottom-style: none;
+    }
+
+    #column2_element1 {
+        background-color: gainsboro;
+    }
+
+    #column2_element2 {
+        background-color: gainsboro;
+    }
+
+    #disclaimer {
+        text-align: center;
+        position: static;
+        bottom: auto;
+        left: auto;
+        transform: none;
+        margin: 10px;
+    }
+
+    .review-box {
+        margin: 10px;
+    }
+
+    #project_list {
+        margin-left: auto;
+        margin-right: auto;
+        width: auto;
+    }
+
+    #contact_form {
+        margin-left: none;
+        margin-right: none;
+        width: 400px;
+    }
+
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: black;
+        color: white;
+    }
+}

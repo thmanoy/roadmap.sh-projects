@@ -287,8 +287,8 @@ button:hover {
     }
 
     #contact_form {
-        margin-left: none;
-        margin-right: none;
+        margin-left: 0;
+        margin-right: auto;
         width: 400px;
     }
 
